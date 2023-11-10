@@ -1,0 +1,91 @@
+table, td, th{
+    border-top: 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+
+
+}
+
+td{
+    padding: 5px;
+    
+}
+
+th{
+    background-color: dodgerblue;
+    padding: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+table{
+    width: 100%;
+}
+
+caption{
+    background: orange;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+   
+
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+}
+
+.Excellent{
+    
+    padding: 2px;
+    color: white;
+    font-size: 12px;
+    background: green;
+
+}
+
+.Fail{
+    padding: 2px;
+    color: white;
+    background-color: red;
+    font-size: 12px;
+}
+
+.Good{
+    padding: 2px;
+    font-size: 12px;
+    background: yellow;
+    color: yellow;
+
+}
+
+#Ebutton{
+    background-color: green;
+    padding: 3px;
+    outline: none;
+}
+
+input{
+    color: white;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+}
+
+#Fail{
+    background-color: red;
+}
+
+
+#Good{
+    background-color: yellow;
+    color: black
+}
+
+
+tr:hover{
+    background-color: lightgray;
+    transition: 0.5s;
+}
