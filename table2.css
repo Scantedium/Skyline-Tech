@@ -1,0 +1,30 @@
+table, td, th{
+    border-bottom: 3px solid;
+    border-collapse: collapse;
+
+}
+
+
+table{
+    width: 60%;
+}
+
+td, th{
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+th{
+    background: dodgerblue;
+    color: white;
+}
+
+tr:nth-child(even)  {
+    background-color: grey;
+    color: yellow;
+}
+
+tr:hover{
+    background-color: darkgray;
+
+}
